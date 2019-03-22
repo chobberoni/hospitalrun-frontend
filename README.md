@@ -61,7 +61,7 @@ To run HospitalRun with Docker please do the following:
 - Execute `docker run -it --name hospitalrun-frontend -p 4200:4200 --link couchdb:couchdb -d hospitalrun-frontend` to create the HospitalRun container.
 
 ### Accessing HospitalRun with Docker Toolbox
-If you are running with Docker Toolbox you will have to run the following commands to get the IP of the docker machine where hospitalrun-frontend is running with the following:
+2.	Run the following commands if running with Docker Toolbox. Get IP of docker machine where `hospitalrun-frontend` is running with the following:
 - Run the following command to get the ip of the docker machine that the image was created on `docker-machine ip default`.
 - Go to `http://<docker-machine ip>:4200` in a browser and login with username `hradmin` and password `test`.
 
